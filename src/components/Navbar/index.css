@@ -1,0 +1,41 @@
+@import '~antd/dist/antd.css';
+
+.site-layout .site-layout-background {
+  background: #fff;
+}
+[data-theme="dark"] .site-layout .site-layout-background {
+  background: #141414;
+}
+
+.ant-layout-header{
+    background: #fff;
+    box-shadow: 0 2px 3px -1px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo{
+    width: 100px;
+}
+
+.ant-btn-primary{
+    background-color: #023047;
+}
+
+
+.bg-orange{
+    background-color: #FB8500;
+}
+
+@media only screen and (max-width: 600px) {
+    .bg-black {
+      display: none;
+    }
+
+    .bg-orange {
+      display: none;
+    }
+}
